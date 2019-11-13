@@ -1,0 +1,5 @@
+container:
+  image: node:latest
+
+main_task:
+  featurepeek_script: bash <(curl -s https://dev.peek.run/ci) -d
