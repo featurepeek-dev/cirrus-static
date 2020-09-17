@@ -1,5 +1,5 @@
 version: 2
-
-default:
+main:
   type: static
-  path: /public
+  path: .
+  spa: false
